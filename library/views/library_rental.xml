@@ -22,6 +22,7 @@
                         <group>
                             <field name="renter" />
                             <field name="book"/>
+                            <field name="overdue_fee" />
                         </group>
                         <group>
                             <field name="date_rent" />
