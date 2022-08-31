@@ -6,5 +6,6 @@ class LibraryBook(models.Model):
     name = fields.Char()
     isbn = fields.Char("ISBN")
     summary = fields.Text()
-    author = fields.Char()
+    # author = fields.Char()
+    authors = fields.Many2many("res.partner")
     copies = fields.Integer()

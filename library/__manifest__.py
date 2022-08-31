@@ -9,11 +9,12 @@
     'description': """
         Library
     """,
-    'depends': ['base'],
+    'depends': ['base', 'contacts'],
     'data': [
         "security/ir.model.access.csv",
         "views/library_book.xml",
         "views/library_rental.xml",
+        "views/res_partner.xml",
         "views/menus.xml",
     ],
     'license': 'LGPL-3',

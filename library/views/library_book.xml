@@ -29,7 +29,7 @@
                             <field name="summary"/>
                         </group>
                         <group>
-                            <field name="author" />
+                            <field name="authors" widget="many2many_tags" />
                             <field name="copies" />
                         </group>
                     </group>
