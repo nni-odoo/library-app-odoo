@@ -16,6 +16,7 @@
         "views/library_rental.xml",
         "views/res_partner.xml",
         "views/menus.xml",
+        "views/report_contact_rentals.xml",
     ],
     'license': 'LGPL-3',
 }
