@@ -12,7 +12,7 @@ class LibraryRental(models.Model):
     date_rent = fields.Date("Rental Date")
     date_end = fields.Date("Max Return Date")
 
-    overdue_fee = fields.Float("Overdue Fee", compute="_compute_overdue_fee")
+    overdue_fee = fields.Float("Overdue Fee", compute="_compute_overdue_fee", store=True)
 
     def _compute_overdue_fee(self):
         today = fields.Date.today()
